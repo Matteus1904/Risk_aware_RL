@@ -1,0 +1,14 @@
+{
+    "market": "BTCUSDT", 
+    "tick_interval": "30m", 
+    "startDay": "20/09/2023",
+    "endDay":"29/09/2023",
+    "prediction_horizon": 5,
+    "window_size": 48,
+    "refit_every": 1,
+    "p": 1,
+    "q" :1,
+    "target_VaR": -0.003,
+    "discount_factor": 0.5,
+    "weight_of_VaR_target": 4
+}
