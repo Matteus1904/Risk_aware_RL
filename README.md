@@ -20,5 +20,14 @@ I compare the above method with two border baselines - first baseline is portfol
 
 Second border baseline is risk parity portfolio, when transaction costs are not taken into account, in this case risk would be perfectly targeted, but PnL will greatly suffer from transaction costs.
 
-In `main.ipynb` it can be seen the comparison
+In `main.ipynb` it can be seen the comparison of provided methods.
+
+![alt text](/pics/volume.png)
+It can be seen that controller smoothed the changes in portfolio weights, so it fullfilled its goal
+
+![alt text](/pics/var.png)
+Controller alows to deviate from target in case of big transaction costs expecattions
+
+![alt text](/pics/pnl.png)
+Controller allows to save some money from transactions costs 
 
